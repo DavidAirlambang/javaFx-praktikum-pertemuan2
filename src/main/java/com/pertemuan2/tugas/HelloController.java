@@ -8,6 +8,8 @@ import javafx.fxml.FXML;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
 
+import java.util.Optional;
+
 public class HelloController {
     public TextField addNrp;
     public TextField addNama;
@@ -31,18 +33,33 @@ public class HelloController {
     public void addNewStudent(ActionEvent actionEvent) {
         int nrp = Integer.parseInt(addNrp.getText());
         String nama = addNama.getText();
-        listSiswa.add(new Siswa(nrp,nama));
+        listSiswa.add(new Siswa(nrp, nama));
         addNrp.setText("");
         addNama.setText("");
     }
 
     public void delStudent(ActionEvent actionEvent) {
-        int del = Integer.parseInt(delNrp.getText());
-        for (int i=0; i < listSiswa.size(); i++){
-            if (del == listSiswa.get(i).getNrp()) {
-                listSiswa.remove(i);
-                delNrp.setText("");
-                break;
+//        alert confirm membuat confirmasi
+        Alert confirm = new Alert(Alert.AlertType.CONFIRMATION);
+        confirm.setTitle("Hapus Data?");
+        confirm.setHeaderText(null);
+        confirm.setContentText("Yakin menghapus data?");
+//        kalo ok baru di delete
+        if (confirm.showAndWait().get() == ButtonType.OK){
+            int del = Integer.parseInt(delNrp.getText());
+            for (int i = 0; i < listSiswa.size(); i++) {
+                if (del == listSiswa.get(i).getNrp()) {
+                    listSiswa.remove(i);
+                    delNrp.setText("");
+                    break;
+        }
+//            alert type warning untuk membuat pop up windows pemberitahuan
+            Alert alert = new Alert(Alert.AlertType.WARNING);
+            alert.setTitle("Warning");
+            alert.setHeaderText("Tidak ditemukan");
+            alert.setContentText("Nomor NRP yang anda cari tidak ada");
+            alert.showAndWait();
+            delNrp.setText("");
             }
         }
     }
