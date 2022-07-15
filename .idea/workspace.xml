@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="975dfe5a-6164-4377-8389-9396e9b39074" name="Changes" comment="Commit2_Teori">
-      <change afterPath="$PROJECT_DIR$/jawabanPertanyaan.txt" afterDir="false" />
+    <list default="true" id="975dfe5a-6164-4377-8389-9396e9b39074" name="Changes" comment="praktikum_pertemuan2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pertemuan2/tugas/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pertemuan2/tugas/HelloApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pertemuan2/tugas/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pertemuan2/tugas/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pertemuan2/tugas/model/Siswa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pertemuan2/tugas/model/Siswa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/pertemuan2/tugas/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/pertemuan2/tugas/hello-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +97,8 @@
       <workItem from="1657797698796" duration="4087000" />
       <workItem from="1657805425874" duration="3070000" />
       <workItem from="1657858573104" duration="772000" />
-      <workItem from="1657864286637" duration="5412000" />
+      <workItem from="1657864286637" duration="5799000" />
+      <workItem from="1657875793410" duration="19000" />
     </task>
     <task id="LOCAL-00001" summary="Commit1_Teori">
       <created>1657696547681</created>
@@ -118,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657800711194</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="praktikum_pertemuan2">
+      <created>1657875200763</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1657875200763</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,6 +141,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit1_Teori" />
     <MESSAGE value="Commit2_Teori" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit2_Teori" />
+    <MESSAGE value="praktikum_pertemuan2" />
+    <option name="LAST_COMMIT_MESSAGE" value="praktikum_pertemuan2" />
   </component>
 </project>
