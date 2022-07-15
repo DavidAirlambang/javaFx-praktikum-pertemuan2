@@ -1,0 +1,33 @@
+2072046 - Immanuel K D A
+
+- how to search for data with nrp
+	menggunakan for di loop untuk semua data di array hingga menemukan nrp yang sesuai yg dicari
+
+- how to delete
+	setelah ketemu sesuai dengan nrp yang dicari maka menggunakan .remove(i), i disini adalah i ke nrp yg dicari	
+
+- how to prevent error when no data deleted
+	menggunakan if data tidak ada
+
+- how to show error when no data deleted
+	dari data search nrp kita menggunakan if jika tidak ditemukan maka akan ada peringatan
+
+- how to add confirm box to make sure deletion
+	menggunakan confirmation alert
+
+- how to know which data selected from table select
+	menggunakan table.getSelectionModel().getSelectedItem().get____()
+
+- how to show selected data from table on the txtNrpDelete
+	txtNrpDelete.setText(table.getSelectionModel().getSelectedItem().getNrp())
+
+- how to delete data selected from table select
+	list.remove(table.getSelectionModel().getSelectedItem())
+
+- if student has multiple score, and you would like to
+  add delete update score on student what file need to be added
+	tambahkan column untuk score-score yang baru di fxml serta tambahkan di class siswa
+
+- if student has multiple score, and you would like to
+  add delete update score on student what file need to be updated
+	file fxml,class siswa,controller
